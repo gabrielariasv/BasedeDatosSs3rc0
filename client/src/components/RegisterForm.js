@@ -1,7 +1,7 @@
 // src/components/RegisterForm.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import axios from '../axiosConfig';
+import axios from 'axios';
 
 const FormContainer = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import axios from './axiosConfig';
+import axios from 'axios';
 import ProductList from './components/ProductList';
 import SearchBar from './components/SearchBar';
 import AddProductForm from './components/AddProductForm';
