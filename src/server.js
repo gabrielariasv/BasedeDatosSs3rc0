@@ -7,6 +7,8 @@ const authRoutes = require('./routes/auth');
 const path = require('path');
 
 const app = express();
+app.use(cors())
+
 const port = process.env.PORT || 3000;
 
 const parentDir = path.resolve(__dirname, '..');
